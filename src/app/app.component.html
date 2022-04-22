@@ -1,0 +1,83 @@
+<nav class="header">
+    
+  <div class = "nav-item" style="color: rgb(248, 247, 245);" >
+      <h2 class="text-center" style="color: rgb(239, 235, 235);" > File Upload Example with Spring-boot (AWS-S3) and Angular </h2>
+  </div>
+  
+</nav>
+<div class = "container" style="background-color: rgb(210, 213, 207);">
+<div>
+    <br>
+    <br>
+
+  <div style="text-align: center;">
+      <b><h2 style="color: rgb(5, 165, 42);">{{response}}</h2></b>
+  </div>
+  <br>
+
+  <div class="tableDiv" >
+    <table class="tableDiv" style="text-align: center;">
+      <thead style="background-color: darkgoldenrod;">
+          <tr>
+              <th style="text-align: center;"> UPLOAD</th>
+              <th style="text-align: center;"> DOWNLOAD</th>
+              <th style="text-align: center;"> DELETE </th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr style="align-content: flex-end;">
+              <td class="td" style="text-align: center;">
+                  <br><div><input class="selectFile" type="file" (change)="onFileSelected($event)"> </div>
+                  <br>
+              <div>
+                <button class="uploadbutton" type="button" (click)="upload()">UPLOAD</button>
+              </div>
+              <br>  </td>
+              <td class="td" style="text-align: center;"> 
+                  <br>
+                  <div>
+                      <input class="selectText" type="text" placeholder="Enter File Name" [(ngModel)]="filenameForDownload" id="filenameForDownload" name="filenameForDownload" />
+                      </div>
+                      <br>
+                      <div>
+                      <button class="downloadbutton" type="button" (click)="download()">DOWNLOAD</button>
+                    </div>
+                    <br>
+              </td>
+              <td class="td" style="text-align: center;"> 
+                  <br>
+                  <div >
+                      <input class="selectText" type="text" placeholder="Enter File Name" [(ngModel)]="filenameForDelete" id="filenameForDelete" name="filenameForDelete" />
+                  </div>
+                  <br>
+                      <div>
+                      <button class="deletebutton" type="button" (click)="delete()">DELETE</button>
+                    </div> 
+                    <br>
+              </td>
+          </tr>
+      </tbody>
+  </table>
+  <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+</div>
+</div>
+<footer class = "footer" style="color: rgb(218, 239, 31);">
+<div class = "container">
+  <span>All Rights Reserved 2022 @TechieeGaiBilla</span>
+</div>
+</footer>
