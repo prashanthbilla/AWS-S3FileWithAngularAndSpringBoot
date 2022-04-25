@@ -24,7 +24,18 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Backend Spring=boot project with AWS-S3
+In our projects there are four scenarios
+1) Get all the files from the AWS-S3 server.
+2) Upload the file.
+3) Download the file.
+4) Delete the file.
+
+#### Here is my project scanarios (Image):
+
+![FileAngular1New](https://user-images.githubusercontent.com/85600714/165136459-e0818eca-6209-4103-8535-c9553d02ac5e.png)
+
+
+## Backend Spring-boot project with AWS-S3
 
 Here we  will be going to see how can we store the files in the Amazon S3 bucket.
 Here we do like.
