@@ -1,6 +1,6 @@
 # AWS-S3-Upload and download Files Using Spring-boot and Angular
 
-## FileAngular1
+## Angular( Frontend)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
@@ -35,7 +35,7 @@ In our projects there are four scenarios
 ![FileAngular1New](https://user-images.githubusercontent.com/85600714/165136459-e0818eca-6209-4103-8535-c9553d02ac5e.png)
 
 
-## Backend Spring-boot project with AWS-S3
+## Backend Spring-boot project with AWS-S3 ( Backend )
 
 Here we  will be going to see how can we store the files in the Amazon S3 bucket.
 Here we do like.
